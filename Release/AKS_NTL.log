@@ -1,0 +1,70 @@
+﻿生成启动时间为 2014/3/20 21:38:03。
+     1>项目“C:\Users\袁轶君\Desktop\AKS_NTL\AKS_NTL.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\大学\计算机\算法库\NTL\include" /Zi /nologo /W3 /WX- /sdl /MP /O2 /Oi /Ot /Oy- /GT /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>D:\大学\计算机\算法库\NTL\include\NTL/vector.h(396): warning C4812: 过时的声明样式: 请改用“NTL::Vec<T>::~Vec”
+     1>源.cpp(65): warning C4244: “参数”: 从“double”转换到“long”，可能丢失数据
+     1>D:\大学\计算机\算法库\NTL\include\NTL/vector.h(396): warning C4812: 过时的声明样式: 请改用“NTL::Vec<NTL::ZZ>::~Vec”
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<NTL::ZZ>::~Vec(void)”时
+                 D:\大学\计算机\算法库\NTL\include\NTL/vec_ZZ.h(38): 参见对正在编译的函数 模板 实例化“NTL::Vec<NTL::ZZ>::~Vec(void)”的引用
+                 D:\大学\计算机\算法库\NTL\include\NTL/vec_ZZ.h(14): 参见对正在编译的类 模板 实例化“NTL::Vec<NTL::ZZ>”的引用
+     1>D:\大学\计算机\算法库\NTL\include\NTL/vector.h(396): warning C4812: 过时的声明样式: 请改用“NTL::Vec<NTL::ZZ_p>::~Vec”
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<NTL::ZZ_p>::~Vec(void)”时
+                 D:\大学\计算机\算法库\NTL\include\NTL/vec_ZZ_p.h(15): 参见对正在编译的函数 模板 实例化“NTL::Vec<NTL::ZZ_p>::~Vec(void)”的引用
+                 D:\大学\计算机\算法库\NTL\include\NTL/vec_ZZ_p.h(15): 参见对正在编译的类 模板 实例化“NTL::Vec<NTL::ZZ_p>”的引用
+     1>D:\大学\计算机\算法库\NTL\include\NTL/vector.h(396): warning C4812: 过时的声明样式: 请改用“NTL::Vec<NTL::Vec<long>>::~Vec”
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<NTL::Vec<long>>::~Vec(void)”时
+                 D:\大学\计算机\算法库\NTL\include\NTL/FFT.h(44): 参见对正在编译的函数 模板 实例化“NTL::Vec<NTL::Vec<long>>::~Vec(void)”的引用
+                 D:\大学\计算机\算法库\NTL\include\NTL/FFT.h(41): 参见对正在编译的类 模板 实例化“NTL::Vec<NTL::Vec<long>>”的引用
+     1>D:\大学\计算机\算法库\NTL\include\NTL/vector.h(396): warning C4812: 过时的声明样式: 请改用“NTL::Vec<NTL::Vec<NTL::mulmod_precon_t>>::~Vec”
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<NTL::Vec<NTL::mulmod_precon_t>>::~Vec(void)”时
+                 D:\大学\计算机\算法库\NTL\include\NTL/FFT.h(44): 参见对正在编译的函数 模板 实例化“NTL::Vec<NTL::Vec<NTL::mulmod_precon_t>>::~Vec(void)”的引用
+                 D:\大学\计算机\算法库\NTL\include\NTL/FFT.h(42): 参见对正在编译的类 模板 实例化“NTL::Vec<NTL::Vec<NTL::mulmod_precon_t>>”的引用
+     1>D:\大学\计算机\算法库\NTL\include\NTL/vector.h(396): warning C4812: 过时的声明样式: 请改用“NTL::Vec<long>::~Vec”
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<long>::~Vec(void)”时
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum(155): 参见对正在编译的函数 模板 实例化“NTL::Vec<long>::~Vec(void)”的引用
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(399): 参见对正在编译的函数 模板 实例化“void NTL::BlockDestroy<T>(T *,long)”的引用
+                 with
+                 [
+                     T=NTL::Vec<long>
+                 ]
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<NTL::Vec<long>>::~Vec(void)”时
+                 D:\大学\计算机\算法库\NTL\include\NTL/FFT.h(44): 参见对正在编译的函数 模板 实例化“NTL::Vec<NTL::Vec<long>>::~Vec(void)”的引用
+     1>D:\大学\计算机\算法库\NTL\include\NTL/vector.h(396): warning C4812: 过时的声明样式: 请改用“NTL::Vec<NTL::mulmod_precon_t>::~Vec”
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<NTL::mulmod_precon_t>::~Vec(void)”时
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xlocnum(155): 参见对正在编译的函数 模板 实例化“NTL::Vec<NTL::mulmod_precon_t>::~Vec(void)”的引用
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(399): 参见对正在编译的函数 模板 实例化“void NTL::BlockDestroy<T>(T *,long)”的引用
+                 with
+                 [
+                     T=NTL::Vec<NTL::mulmod_precon_t>
+                 ]
+                 D:\大学\计算机\算法库\NTL\include\NTL/vector.h(397): 编译类 模板 成员函数“NTL::Vec<NTL::Vec<NTL::mulmod_precon_t>>::~Vec(void)”时
+                 D:\大学\计算机\算法库\NTL\include\NTL/FFT.h(44): 参见对正在编译的函数 模板 实例化“NTL::Vec<NTL::Vec<NTL::mulmod_precon_t>>::~Vec(void)”的引用
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\袁轶君\Desktop\AKS_NTL\Release\AKS_NTL.exe" /NOLOGO /LIBPATH:.\NTL\Release kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\袁轶君\Desktop\AKS_NTL\Release\AKS_NTL.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\袁轶君\Desktop\AKS_NTL\Release\AKS_NTL.lib" /MACHINE:X86 /SAFESEH "Release\源.obj"
+         正在生成代码
+         已完成代码的生成
+     1>NTL.lib(lip.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ZZ.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ZZ_p.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ZZ_pX.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(vec_ZZ_p.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ctools.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(tools.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(FFT.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ZZX1.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ZZX.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ZZ_pX1.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(ZZVec.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(lzz_pX.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(lzz_pX1.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(lzz_p.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(vec_ZZ.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>NTL.lib(vec_lzz_p.obj) : warning LNK4204: “C:\Users\袁轶君\Desktop\AKS_NTL\Release\vc120.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+         AKS_NTL.vcxproj -> C:\Users\袁轶君\Desktop\AKS_NTL\Release\AKS_NTL.exe
+     1>已完成生成项目“C:\Users\袁轶君\Desktop\AKS_NTL\AKS_NTL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.73
